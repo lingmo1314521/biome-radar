@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shapeless",
+  "group": "tools",
+  "ingredients": [
+    {
+      "item": "biomeradar:explorerscompass"
+    },
+    {
+      "item": "minecraft:compass"
+    }
+  ],
+  "result": {
+    "item": "biomeradar:explorerscompass"
+  }
+}

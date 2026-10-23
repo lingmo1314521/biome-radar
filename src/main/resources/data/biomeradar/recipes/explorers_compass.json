@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "tools",
+  "pattern": [
+    "RIR",
+    "ICI",
+    "RIR"
+  ],
+  "key": {
+    "R": { "item": "minecraft:redstone" },
+    "I": { "item": "minecraft:iron_ingot" },
+    "C": { "item": "minecraft:compass" }
+  },
+  "result": {
+    "item": "biomeradar:explorerscompass"
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "type": "biomeradar:enhanced_radar",
+    "group": "biomeradar",
+    "ingredients": [
+        {
+            "item": "biomeradar:explorerscompass"
+        },
+        {
+            "item": "dragonminez:t1_radar_chip"
+        },
+        {
+            "item": "dragonminez:t2_radar_chip"
+        },
+        {
+            "item": "dragonminez:t1_radar_cpu"
+        },
+        {
+            "item": "dragonminez:t2_radar_cpu"
+        }
+    ],
+    "result": {
+        "item": "biomeradar:explorerscompass"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "dragonminez"
+        }
+    ]
+}
