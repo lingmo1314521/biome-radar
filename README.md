@@ -25,7 +25,6 @@ Minecraft 1.20.1 Forge 的一个小 mod，拿来找群系、找结构用的。
 
 ![升级合成](images/recipe-enhanced.png)
 
-
 ## 安装
 
 装 [Forge 1.20.1](https://files.minecraftforge.net/)（47.4.26 以上），把 jar 丢 mods 文件夹就行。
@@ -54,24 +53,27 @@ Forked from [Explorer's Compass](https://github.com/MattCzyr/ExplorersCompass), 
 - Search any vanilla structure: villages, temples, strongholds, ruined portals, ocean monuments...
 - Search biomes: oceans, plains, mushroom fields, whatever you need
 - DragonMineZ integration: locate Roshi's house, Kami's Lookout, Guru's home, and quest biomes
+- Supports Chinese search by pinyin (search "pingyuan" or "py" to find plains)
 - Auto switches between Chinese and English based on your game language
 
-![英文菜单](images/menu-en.png)
+![English menu](images/menu-en.png)
 
-![英文雷达](images/radar-en.png)
-
-
-
+![English radar](images/radar-en.png)
 
 ## Recipe
 
-```
-R I R
-I C I
-R I R
-```
+Basic: R = Redstone, I = Iron Ingot, C = Compass. Easy early game.
 
-R = Redstone, I = Iron Ingot, C = Compass. Easy early game.
+![Basic recipe](images/recipe-basic.png)
+
+With DragonMineZ installed, combine the radar with radar chips and CPUs to upgrade it — adds Dragon Ball tracking:
+
+![Upgrade recipe](images/recipe-enhanced.png)
+
+## Installation
+
+Install [Forge 1.20.1](https://files.minecraftforge.net/) (47.4.26 or later) and drop the jar into your `mods/` folder.
+Installing DragonMineZ unlocks Dragon Ball-specific search content; everything works fine without it.
 
 ## Build
 
